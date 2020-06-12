@@ -4,3 +4,12 @@
 [submodule "pypostal"]
 	path = pypostal
 	url = https://github.com/openvenues/pypostal
+[submodule "fuzzy-match-company-name"]
+	path = fuzzy-match-company-name
+	url = https://github.com/Cheukting/fuzzy-match-company-name
+[submodule "data-science-on-gcp"]
+	path = data-science-on-gcp
+	url = https://github.com/GoogleCloudPlatform/data-science-on-gcp
+[submodule "DB"]
+	path = DB
+	url = https://github.com/MhLiao/DB.git
