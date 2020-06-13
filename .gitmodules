@@ -1,9 +1,0 @@
-[submodule "DifferentiableBinarization"]
-	path = DifferentiableBinarization
-	url = https://github.com/xuannianz/DifferentiableBinarization
-[submodule "pypostal"]
-	path = pypostal
-	url = https://github.com/openvenues/pypostal
-[submodule "fuzzy-match-company-name"]
-	path = fuzzy-match-company-name
-	url = https://github.com/Cheukting/fuzzy-match-company-name
