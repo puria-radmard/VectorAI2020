@@ -129,6 +129,7 @@ if __name__ == '__main__':
         for box in boxes:
             cv2.drawContours(src_image, [np.array(box)], -1, (0, 255, 0), 2)
         cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+        print(p)
         cv2.imshow('image', src_image)
         cv2.waitKey(0)
         image_fname = osp.split(image_path)[-1]

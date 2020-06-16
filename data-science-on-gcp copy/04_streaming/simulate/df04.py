@@ -90,6 +90,6 @@ if __name__ == '__main__':
          | 'flights:tzcorr' >> beam.FlatMap(tz_correct, beam.pvalue.AsDict(airports))
       )
 
-      flights | beam.io.textio.WriteToText('all_flights')
+      flights | beam.io.textio.WriteToText('all_flights_24')
 
       pipeline.run()
